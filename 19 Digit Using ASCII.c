@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+char c;
+    printf("enter : ");
+    scanf("%c",&c);
+    
+    if(c>='0' && c<='9')
+    {
+        printf("Digit");
+    }
+    else
+    {
+        printf("Not a digit");
+    }
+    return 0;
+}
